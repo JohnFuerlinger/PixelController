@@ -1,3 +1,5 @@
+/* Color fading */
+
 #pragma once
 
 #include "main.hpp"
