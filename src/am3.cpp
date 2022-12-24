@@ -5,8 +5,6 @@
 void am3_startup() {
     /* Set all pixels off */
     std::srand(0);
-
-
     leds.fill_solid(CRGB::Black);
     FastLED.show();
 }
