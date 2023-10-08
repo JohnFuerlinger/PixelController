@@ -23,7 +23,6 @@ void am4_loop() {
                         leds[i] = CRGB(255, 0, 0);
                     }
                 }
-
                 if (i == (numleds - 1)) { flip = false; }
             } else {
                 /* Evens red, odds green */
